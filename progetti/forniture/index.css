@@ -1,0 +1,11 @@
+body {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+
+model-viewer {
+    width: 40rem;
+    height: 40rem;
+}

@@ -1,0 +1,154 @@
+:root {
+    --color-light-grey: rgba(0, 0, 0, 0.16);
+    --color-blue: #01afe3;
+    --color-dark-grey: #444444;
+}
+
+* {
+    user-select: none;
+}
+
+body {
+    overflow: hidden;
+}
+
+button {
+    user-select: none;
+}
+
+.loader {
+  z-index: 100;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.loading-text {
+  margin-top: 2em;
+}
+
+.logo-title {
+    width: 70%;
+}
+
+.detail-panel {
+    z-index: 10;
+    background-color: white;
+    z-index: inherit;
+    position: absolute;
+    bottom: 4em;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    padding: 0 1.5em;
+    height: 85%;
+    transform: translateY(100%);
+    display: flex;
+    flex-direction: column;
+    transition: transform 300ms ease-out;
+}
+
+.detail-panel.opened {
+    transform: translateY(10%);
+}
+
+.detail-address {
+    text-transform: capitalize;
+}
+
+.detail-more {
+    display: flex;
+    justify-content: space-between;
+    margin: 0.5em 0;
+}
+
+.detail-title {
+    margin-top: 1em;
+    font-size: 1.5em;
+}
+
+.detail-distance {
+    color: var(--color-blue);
+}
+
+.detail-description {
+    height: 20em;
+    display: block;
+    position: relative;
+    overflow: auto;
+}
+
+.more-details {
+    text-decoration: none;
+    color: var(--color-blue);
+    border: 1px solid var(--color-blue);
+    border-radius: 4px;
+    margin-top: 1em;
+    padding: 0.5em;
+    text-align: center;
+}
+
+.footer {
+    z-index: 20;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    height: 4em;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    background-color: white;
+}
+
+.footer .salaborsa-logo {
+    margin-left: -2.75em;
+    margin-top: 1em;
+}
+
+.footer-container {
+    flex: auto;
+    margin: 0 1em;
+    padding: 0.5em 0;
+    margin-right: 0;
+}
+
+.footer-place-title {
+    font-size: 1.15em;
+    color: var(--color-dark-grey);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 250px;
+}
+
+.footer-place-distance {
+    color: var(--color-blue);
+}
+
+.footer-button {
+    border: none;
+    background: transparent;
+    padding: 1em;
+    cursor: pointer;
+    outline: none;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.debug {
+    display: flex;
+    flex-direction: column;
+}
+
+.debug button {
+    border: none;
+    background-color: white;
+    padding: 1rem;
+    text-align: center;
+}

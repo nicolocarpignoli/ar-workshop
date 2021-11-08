@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <title>Palestre</title>
+    <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+    <script src="https://raw.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar.js"></script>
+    <script src="gesture-detector.js"></script>
+    <script src="gesture-handler.js"></script>
+    <body style="margin: 0px; overflow: hidden">
+        <a-scene
+            arjs="trackingMethod: best; sourceType: webcam; debugUIEnabled: false;"
+            embedded
+            renderer="logarithmicDepthBuffer: true;"
+            vr-mode-ui="enabled: false"
+            gesture-detector
+            id="scene"
+        >
+
+            <a-assets>
+                <a-asset-item id="model-glb" src="./model.glb"></a-asset-item>
+            </a-assets>
+
+            <a-marker
+                preset="hiro"
+                smooth="true"
+                smoothCount="10"
+                smoothTolerance=".01"
+                smoothThreshold="5"
+                raycaster="objects: .clickable"
+                emitevents="true"
+                cursor="fuse: false; rayOrigin: mouse;"
+            >
+                <a-entity
+                    gltf-model="#model-glb"
+                    scale="12 12 12"
+                    class="clickable"
+                    gesture-handler="minScale: 0.25; maxScale: 10"
+                >
+                </a-entity>
+            </a-marker>
+            <a-entity camera></a-entity>
+        </a-scene>
+    </body>
+</html>

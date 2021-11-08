@@ -1,0 +1,180 @@
+[{
+  "type": "Feature",
+  "properties": {
+    "id": 17.0,
+    "scheda": "p0102011_AreeAttesa",
+    "denom": "Z.S.P. N. 2\/2 - AREA SCOLASTICA CASETTE",
+    "indirizzo": "VIA GIOVANNI XXIII",
+    "utilizzo": "8",
+    "u_altro": "parcheggio",
+    "fondo": "1",
+    "f_altro": "misto",
+    "sup_tot": 12124.53,
+    "sup_cop": 0.0,
+    "persone": 12124.0,
+    "proprieta": "1",
+    "convenz": "2",
+    "note": "AREA DA UTILIZZARE PER AMMASSAMENTO  TEMPORANEO DELLA POPOLAZIONE RESIDENTE NELLE ADIACENZE DELLA ZONA, IN ATTESA DEL TRASFERIMENTO ALLA ZAP 2",
+    "agg": "2016\/10\/14",
+    "cod_istat": "023044",
+    "LAT": 45.18441283929608,
+    "LON": 11.305653982578798
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.305654,
+      45.1844128
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "id": 24.0,
+    "scheda": "p0102011_AreeAttesa",
+    "denom": "Z.S.P. N. 2\/1 - AREA SCOLASTICA VIA MASSARI",
+    "indirizzo": "VIA MASSARI",
+    "utilizzo": "8",
+    "u_altro": "Esterno scuola",
+    "fondo": "1",
+    "f_altro": "misto",
+    "sup_tot": 8748.8,
+    "sup_cop": 0.0,
+    "persone": 8748.0,
+    "proprieta": "1",
+    "convenz": "2",
+    "note": "AREA DA UTILIZZARE PER AMMASSAMENTO  TEMPORANEO DELLA POPOLAZIONE RESIDENTE NELLE ADIACENZE DELLA ZONA, IN ATTESA DEL TRASFERIMENTO ALLA ZAP 1",
+    "agg": "2016\/10\/14",
+    "cod_istat": "023044",
+    "LAT": 45.194611179430503,
+    "LON": 11.306837428870134
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.3068374,
+      45.1946112
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "id": 21.0,
+    "scheda": "p0102011_AreeAttesa",
+    "denom": "Z.S.P. N. 1\/2 - PARCO COMUNALE VIA TRENTO",
+    "indirizzo": "VIA TRENTO",
+    "utilizzo": "8",
+    "u_altro": null,
+    "fondo": "1",
+    "f_altro": null,
+    "sup_tot": 12948.18,
+    "sup_cop": 0.0,
+    "persone": 12948.0,
+    "proprieta": "1",
+    "convenz": "2",
+    "note": "POPOLAZIONE RESIDENTE NELLE ADIACENZE DELLA ZONA, IN ATTESA DEL TRASFERIMENTO ALLA ZAP 2",
+    "agg": "2016\/10\/14",
+    "cod_istat": "023044",
+    "LAT": 45.187921376368195,
+    "LON": 11.308017990798575
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.308018,
+      45.1879214
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "id": 28.0,
+    "scheda": "p0102011_AreeAttesa",
+    "denom": "Z.S.P. N. 2\/4 - AREA VERDE VIA BERNINI",
+    "indirizzo": "VIA BERNINI",
+    "utilizzo": "8",
+    "u_altro": null,
+    "fondo": "1",
+    "f_altro": null,
+    "sup_tot": 6934.0,
+    "sup_cop": 0.0,
+    "persone": 6933.0,
+    "proprieta": "1",
+    "convenz": "2",
+    "note": "DELLA POPOLAZIONE RESIDENTE NELLE ADIACENZE DELLA ZONA, IN ATTESA DEL TRASFERIMENTO ALLA ZAP 4",
+    "agg": "2016\/10\/14",
+    "cod_istat": "023044",
+    "LAT": 45.199798570201573,
+    "LON": 11.292877878363592
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2928779,
+      45.1997986
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "id": 30.0,
+    "scheda": "p0102011_AreeAttesa",
+    "denom": "Z.S.P. N. 3\/4 - PARCHEGGIO VIA LUSSU",
+    "indirizzo": "VIA EMILIO LUSSU",
+    "utilizzo": "3",
+    "u_altro": null,
+    "fondo": "2",
+    "f_altro": null,
+    "sup_tot": 2803.43,
+    "sup_cop": 0.0,
+    "persone": 2803.0,
+    "proprieta": "2",
+    "convenz": "1",
+    "note": "POPOLAZIONE TERRANEGRA IN CASO DI ESONDAZIONE, IN ATTESA DEL TRASFERIMENTO ALLA ZAP 1 o ZAP 2",
+    "agg": "2017\/12\/12",
+    "cod_istat": "023044",
+    "LAT": 45.198940937094456,
+    "LON": 11.297687950225846
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.297688,
+      45.1989409
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "id": 31.0,
+    "scheda": "p0102011_AreeAttesa",
+    "denom": "Z.S.P. N. 4\/4 - PARCHEGGIO VIA DELL'AVIERE",
+    "indirizzo": "VIA DELL'AVIERE",
+    "utilizzo": "3",
+    "u_altro": null,
+    "fondo": "2",
+    "f_altro": null,
+    "sup_tot": 3290.37,
+    "sup_cop": 0.0,
+    "persone": 3290.0,
+    "proprieta": "2",
+    "convenz": "2",
+    "note": "POPOLAZIONE TERRANEGRA IN CASO DI ESONDAZIONE, IN ATTESA DEL TRASFERIMENTO ALLA ZAP 1 o ZAP 2",
+    "agg": "2017\/12\/12",
+    "cod_istat": "023044",
+    "LAT": 45.198370249617859,
+    "LON": 11.298136482479336
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2981365,
+      45.1983702
+    ]
+  }
+}]

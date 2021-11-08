@@ -1,0 +1,77 @@
+[
+  {
+    "type": "Feature",
+    "properties": {
+      "id": 8,
+      "nome": "LEGNAGO",
+      "codimpiant": "VR11",
+      "indirizzo": "VIA MASSARI (DE) 12 - 3704",
+      "stato": "Comunicato",
+      "gestore": "TIM",
+      "pratica_ed": "DIA135\/200",
+      "link": "SRB08.pdf",
+      "file": "\/media\/SRBfile\/SRB08.pdf",
+      "LAT": 45.194641688961809,
+      "LON": 11.305701761044221
+    },
+    "geometry": {
+      "type": "MultiPoint",
+      "coordinates": [
+        [
+          11.3057018,
+          45.1946417
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": 9,
+      "nome": "LEGNAGO CENTRO",
+      "codimpiant": "VR2570B",
+      "indirizzo": "VIA MANTOVA 1",
+      "stato": "Parere favorevole non com*",
+      "gestore": "H3G",
+      "pratica_ed": "CE333\/2002",
+      "link": "SRB09.pdf",
+      "file": "\/media\/SRBfile\/SRB09.pdf",
+      "LAT": 45.192915463194645,
+      "LON": 11.301138162639697
+    },
+    "geometry": {
+      "type": "MultiPoint",
+      "coordinates": [
+        [
+          11.3011382,
+          45.1929155
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": 13,
+      "nome": "Legnago Casette",
+      "codimpiant": "VR-3528B",
+      "indirizzo": "via Garbo",
+      "stato": "Comunicato",
+      "gestore": "OMNITEL",
+      "pratica_ed": "CE403\/200",
+      "link": "SRB13.pdf",
+      "file": "\/media\/SRBfile\/SRB13.pdf",
+      "LAT": 45.187421644501981,
+      "LON": 11.303067958894665
+    },
+    "geometry": {
+      "type": "MultiPoint",
+      "coordinates": [
+        [
+          11.303068,
+          45.1874216
+        ]
+      ]
+    }
+  }
+]
